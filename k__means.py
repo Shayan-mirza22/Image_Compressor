@@ -18,8 +18,6 @@ def find_closest_centroids(X, centroids):
 
     # Set K
     K = centroids.shape[0]
-
-    # You need to return the following variables correctly
     idx = np.zeros(X.shape[0], dtype=int)
 
     ### START CODE HERE ###
